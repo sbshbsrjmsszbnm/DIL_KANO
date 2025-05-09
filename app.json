@@ -59,7 +59,7 @@
     },
     "ANTICALL_MSG": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "timnasa_Md is busy",
+      "value": "yes",
       "required": false
     },
     "BOT_NAME": {
