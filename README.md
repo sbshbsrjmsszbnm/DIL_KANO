@@ -1,4 +1,9 @@
 <p align="center">
+  <a href="https://whatsapp.com/channel/0029Vb5vW8yLikgAkyNxnY1H">
+    <img src="https://img.shields.io/badge/WHATSAPP-CHANNEL-green?style=for-the-badge&logo=whatsapp" width="270" height="40"/>
+  </a>
+</p>
+<p align="center">
   <a href="https://chat.whatsapp.com/BoHbS2QoGYO9GPQ1AxpqQU">
     <img src="https://img.shields.io/badge/WHATSAPP-GROUP-blue?style=for-the-badge&logo=whatsapp" width="250" height="40"/>
   </a>
