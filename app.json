@@ -14,7 +14,7 @@
   "env": {
         "PREFIX": {
       "description": "Choose your bot's prefix",
-      "value": ".",
+      "value": "",
       "required": true
     },
     "AUTO_READ_STATUS": {
@@ -24,7 +24,7 @@
     },
     "GREET": {
       "description": "when enabled it automatically sends  greeting message to members in your pm",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_LIKE_STATUS": {
@@ -108,7 +108,7 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255693629079')",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255699155695')",
       "value": "255699155695",
       "required": false
     },
