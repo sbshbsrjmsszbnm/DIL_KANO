@@ -8,7 +8,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
-    PREFIXE: process.env.PREFIX || ".",
+    PREFIXE: process.env.PREFIX || "",
     OWNER_NAME: process.env.OWNER_NAME || "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
@@ -19,7 +19,7 @@ module.exports = { session: process.env.SESSION_ID || '',
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
-    WARN_COUNT : process.env.WARN_COUNT || '3' ,
+    WARN_COUNT : process.env.WARN_COUNT || '1' ,
     ETAT : process.env.PRESENCE || '',
     CHATBOT : process.env.PM_CHATBOT || 'no',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
