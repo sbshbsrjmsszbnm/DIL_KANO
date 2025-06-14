@@ -510,7 +510,7 @@ await reply(`+${userToRemove.split('@')[0]} is not in the sudo list.`);
 
     const settingToReset = args[0].toLowerCase();
     const defaultSettings = {
-        prefix: ".",
+        prefix: "",
         mode: "public",
         autobio: false,
         anticall: false,
