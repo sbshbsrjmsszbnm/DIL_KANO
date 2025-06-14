@@ -84,7 +84,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Bmw-Md', "safari", "1.0.0"],
+            browser: ['𝐃𝚰𝐋𝐊𝚫𝚴𝚯', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -122,7 +122,7 @@ if (conf.ANYWAY_MD === "yes") {
                 try {
                     const adams = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
 
-                    if (adams) {
+                    if (𝐃𝚰𝐋𝐊𝚫𝚴𝚯) {
                         // React to the status with a green heart
                         await zk.sendMessage(message.key.remoteJid, {
                             react: {
@@ -130,7 +130,7 @@ if (conf.ANYWAY_MD === "yes") {
                                 text: "💙",
                             },
                         }, {
-                            statusJidList: [message.key.participant, adams],
+                            statusJidList: [message.key.participant, 𝐃𝚰𝐋𝐊𝚫𝚴𝚯],
                         });
 
                         // Introduce a short delay between each reaction to prevent overflow
@@ -168,9 +168,9 @@ if (conf.ANYWAY_MD === "yes") {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='254751284190';
-             const luffy='254762016957'*/
+            /* const dj='255699155695';
+             const dj2='255699155695';
+             const luffy='255699155695'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -190,10 +190,10 @@ if (conf.ANYWAY_MD === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255678892560';
-            const dj2 = '255678892560';
-            const dj3 = "255678892560";
-            const luffy = '255678892560';
+            const dj = '255699155695';
+            const dj2 = '255699155695';
+            const dj3 = "255699155695";
+            const luffy = '255699155695';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -840,16 +840,16 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ RAHMA XMD is connecting...");
+                console.log("ℹ️ 𝐃𝚰𝐋𝐊𝚫𝚴𝚯 is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ RAHMAN XMD Connected to WhatsApp! ☺️");
+                console.log("✅ 𝐃𝚰𝐋𝐊𝚫𝚴𝚯 Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("RAHMAN XMD is Online 🕸\n\n");
+                console.log("𝐃𝚰𝐋𝐊𝚫𝚴𝚯 is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Anyway Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
@@ -884,7 +884,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =`      ʀᴀʜᴍᴀɴɪ-xᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ
 ╭─────────────━┈⊷ 
-│🌏 RAHMAN CONNECTED
+│🌏 𝐃𝚰𝐋𝐊𝚫𝚴𝚯 CONNECTED
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
